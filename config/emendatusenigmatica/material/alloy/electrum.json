@@ -1,0 +1,26 @@
+{
+  "id": "electrum",
+  "source": "modded",
+  "localizedName": "Electrum",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "nugget",
+    "dust",
+    "plate",
+    "fluid"
+  ],
+  "properties": {
+  "materialType": "alloy",
+  "harvestLevel": 2
+},
+  "colors": {
+    "fluidColor": "E3C739",
+    "materialColor": "E3C739"
+  },
+  "compat": {
+    "thermal": false,
+    "mekanism": false,
+    "ars_noveau": false
+  }
+}

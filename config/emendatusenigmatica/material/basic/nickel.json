@@ -1,0 +1,40 @@
+{
+  "id": "nickel",
+  "source": "modded",
+  "localizedName": "Nickel",
+  "processedTypes": [
+    "ore",
+    "storage_block",
+    "ingot",
+    "nugget",
+    "raw",
+    "dust",
+    "plate",
+    "gear",
+	"rod",
+    "slurry",
+    "crystal",
+    "shard",
+    "clump",
+    "dirty_dust",
+    "crushed_ore",
+    "fluid"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2,
+    "isBurnable": false,
+    "isEmissive": false,
+    "hasOxidization": false
+  },
+    "oreDrop": {
+    "drop": "emendatusenigmatica:raw_nickel",
+    "min": 1,
+    "max": 3
+  },
+  "colors": {
+    "fluidColor": "D8B87D",
+    "materialColor": "D8B87D",
+	"gasColor": "D8B87D"
+  }
+}

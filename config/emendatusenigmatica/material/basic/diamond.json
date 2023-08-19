@@ -1,0 +1,17 @@
+{
+  "id": "diamond",
+  "source": "vanilla",
+  "localizedName": "Diamond",
+  "disableDefaultOre": false,
+  "processedTypes": [
+    "dust",
+    "gear"
+  ],
+  "properties": {
+    "materialType": "gem",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "20A8B3"
+  }
+}

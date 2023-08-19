@@ -1,0 +1,40 @@
+{
+  "id": "iron",
+  "source": "vanilla",
+  "localizedName": "Iron",
+  "disableDefaultOre": false,
+  "processedTypes": [
+    "ore",
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+	"paxel",
+  "crushed_ore",
+  "clump",
+  "crystal",
+  "shard",
+  "dirty_dust",
+  "slurry",
+  "fluid"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "tools": {
+	  "attackDamage": 2.0,
+	  "level": 2,
+	  "enchantability": 14,
+	  "efficiency": 6,
+	  "paxel": {
+		  	"damage": 0.0,
+			"speed": -2.4,
+			"durability": 1000
+		}
+  },
+  "colors": {
+    "materialColor": "D8D8D8",
+    "fluidColor": "D8D8D8"
+   }
+}

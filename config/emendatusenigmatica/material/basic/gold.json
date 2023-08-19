@@ -1,0 +1,27 @@
+{
+  "id": "gold",
+  "source": "vanilla",
+  "localizedName": "Gold",
+  "disableDefaultOre": false,
+  "processedTypes": [
+    "dust",
+    "plate",
+    "gear",
+    "crushed_ore",
+    "clump",
+    "crystal",
+    "shard",
+    "dirty_dust",
+    "slurry",
+    "rod",
+    "fluid"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "FDF55F",
+    "fluidColor": "FDF55F"
+  }
+}

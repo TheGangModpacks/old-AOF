@@ -1,0 +1,18 @@
+{
+  "id": "salt",
+  "source": "modded",
+  "localizedName": "Niter",
+  "processedTypes": [
+    "ore",
+    "storage_block",
+    "dust",
+	"gem"
+  ],
+  "properties": {
+    "materialType": "gem",
+	"gemTexture":  6,
+    "harvestLevel": 2
+  },
+  "colors": {"materialColor": "C6BFCC"},
+  "oreDrop": {"drop": "emendatusenigmatica:salt_gem"}
+}

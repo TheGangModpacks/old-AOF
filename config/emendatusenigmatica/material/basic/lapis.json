@@ -1,0 +1,18 @@
+{
+    "id": "lapis",
+    "source": "vanilla",
+    "localizedName": "Lapis Lazuli",
+    "disableDefaultOre": false,
+    "processedTypes": [
+      "dust",
+      "gear",
+      "fluid"
+    ],
+    "properties": {
+      "materialType": "gem",
+      "harvestLevel": 1
+    },
+    "colors": {
+      "materialColor": "345EC3"
+    }
+  }

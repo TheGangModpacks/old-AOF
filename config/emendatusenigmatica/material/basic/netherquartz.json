@@ -1,0 +1,16 @@
+{
+	"id": "quartz",
+	"source": "vanilla",
+	"localizedName": "Quartz",
+	"processedTypes": [
+	"dust",
+    "fluid"
+	],
+	"properties": {
+		"materialType": "gem",
+		"harvestLevel": 2
+	},
+	"colors": {
+		"materialColor": "E5E5E5"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sulfur",
+  "source": "modded",
+  "localizedName": "Sulfur",
+  "processedTypes": [
+    "ore",
+    "storage_block",
+	  "gem",
+    "dust",
+    "fluid"
+  ],
+  "properties": {
+    "materialType": "gem",
+    "harvestLevel": 2,
+    "isBurnable": false,
+    "isEmissive": false,
+    "hasOxidization": false
+  },
+  "colors": {
+    "materialColor": "EDE42F"
+  },
+  "oreDrop": {"drop": "emendatusenigmatica:sulfur_dust", "min": 1, "max": 1}
+}

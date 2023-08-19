@@ -1,0 +1,15 @@
+{
+    "id": "calcium",
+    "source": "modded",
+    "localizedName": "Calcium",
+    "processedTypes": [
+      "ingot"
+    ],
+    "properties": {
+    "materialType": "alloy",
+    "harvestLevel": 1
+  },
+    "colors": {
+      "materialColor": "C1B7B0"
+    }
+  }
