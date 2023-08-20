@@ -1,23 +1,10 @@
 {
-  "id": "aluminum",
+  "id": "bauxite",
   "source": "modded",
   "localizedName": "Bauxite",
   "processedTypes": [
     "ore",
-    "storage_block",
-    "ingot",
-    "nugget",
-    "raw",
-    "dust",
-    "plate",
-    "rod",
-    "slurry",
-    "crystal",
-    "shard",
-    "clump",
-    "dirty_dust",
-	"crushed_ore",
-  "fluid"
+    "raw"
   ],
   "properties": {
     "materialType": "metal",
@@ -26,11 +13,11 @@
   "oreDrop": {
     "drop": "emendatusenigmatica:raw_bauxite",
     "min": 1,
-    "max": 3
+    "max": 1
   },
   "colors": {
     "fluidColor": "BD6858",
     "materialColor": "BD6858",
-	"gasColor": "BD6858"
+	  "gasColor": "BD6858"
   }
 }
