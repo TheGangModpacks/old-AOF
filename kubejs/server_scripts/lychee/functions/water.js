@@ -43,6 +43,3 @@
           ]
         })
     }
-ServerEvents.recipes(event =>{
-    waterCauldron(event, 'emendatusenigmatica:copper_dirty_dust', 'emendatusenigmatica:copper_dust')
-})
