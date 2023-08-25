@@ -26,37 +26,37 @@
     ],
     "gui": [
       {
-        "texture": "custommachinery:textures/gui/base_background.png",
-        "x": 0,
+        "texture": "aof:textures/gui/furnace_gui.png",
+        "x": 40,
         "y": 0,
         "type": "custommachinery:texture"
       },
       {
         "x": 47,
-        "y": 80,
+        "y": 83,
         "type": "custommachinery:player_inventory"
       },
       {
-        "x": 83,
-        "y": 60,
+        "x": 95,
+        "y": 52,
         "id": "fuel",
         "type": "custommachinery:slot"
       },
       {
-        "x": 83,
-        "y": 15,
+        "x": 95,
+        "y": 16,
         "id": "slot0",
         "type": "custommachinery:slot"
       },
       {
-        "x": 137,
-        "y": 40,
+        "x": 155,
+        "y": 34,
         "id": "output1",
         "type": "custommachinery:slot"
       },
       {
-        "x": 85,
-        "y": 40,
+        "x": 97,
+        "y": 37,
         "type": "custommachinery:fuel"
       },
       {
@@ -66,8 +66,8 @@
         "type": "custommachinery:text"
       },
       {
-        "x": 110,
-        "y": 40,
+        "x": 127,
+        "y": 34,
         "type": "custommachinery:progress",
         "texture_empty": "aof:textures/gui/crush_progress_empty.png",
         "texture_filled": "aof:textures/gui/crush_progress_filled.png"
