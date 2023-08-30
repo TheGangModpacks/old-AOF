@@ -56,13 +56,13 @@
       {
         "x": 155,
         "y": 34,
-        "id": "output1",
+        "id": "output2",
         "type": "custommachinery:slot"
       },
       {
         "x": 137,
         "y": 34,
-        "id": "output2",
+        "id": "output1",
         "type": "custommachinery:slot"
       },
       {
