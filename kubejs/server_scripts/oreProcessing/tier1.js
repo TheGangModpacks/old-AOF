@@ -19,4 +19,8 @@ ServerEvents.recipes(r =>{
             waterCauldron(r, e(`${ingot}_dirty_dust`), e(`${ingot}_dust`))
         }
     }
+
+    r.shaped(Item.of('cauldron'), ['a a', 'a a', 'aaa'], {a: 'kubejs:porcelain_clay'}).id('minecraft:cauldron')
+
+    r.shapeless(Item.of('kubejs:porcelain_clay'), ['bone_meal', 'clay_ball']).id('minecraft:cauldron')
 })

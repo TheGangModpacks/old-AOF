@@ -13,6 +13,11 @@
         "type": "custommachinery:item"
       },
       {
+        "mode": "output",
+        "id": "output2",
+        "type": "custommachinery:item"
+      },
+      {
         "mode": "input",
         "id": "fuel",
         "type":"custommachinery:item",
@@ -55,9 +60,10 @@
         "type": "custommachinery:slot"
       },
       {
-        "x": 97,
-        "y": 37,
-        "type": "custommachinery:fuel"
+        "x": 137,
+        "y": 34,
+        "id": "output2",
+        "type": "custommachinery:slot"
       },
       {
         "text": "Stone Grinder",
@@ -66,8 +72,8 @@
         "type": "custommachinery:text"
       },
       {
-        "x": 127,
-        "y": 34,
+        "x": 96,
+        "y": 35,
         "type": "custommachinery:progress",
         "texture_empty": "aof:textures/gui/crush_progress_empty.png",
         "texture_filled": "aof:textures/gui/crush_progress_filled.png"
