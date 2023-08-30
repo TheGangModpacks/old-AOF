@@ -17,10 +17,14 @@ ServerEvents.recipes(r =>{
             .produceItem(e(`${ingot}_dirty_dust`))
 
             waterCauldron(r, e(`${ingot}_dirty_dust`), e(`${ingot}_dust`))
+
+            removeSmelting(r, `#forge:raw_materials/${ingot}`)
+            removeSmelting(r, `#forge:ores/${ingot}`)
+            removeSmelting(r, `#forge:storage_blocks/raw_${ingot}`)
         }
     }
 
     r.shaped(Item.of('cauldron'), ['a a', 'a a', 'aaa'], {a: 'kubejs:porcelain_clay'}).id('minecraft:cauldron')
 
-    r.shapeless(Item.of('kubejs:porcelain_clay'), ['bone_meal', 'clay_ball']).id('minecraft:cauldron')
+    r.shapeless(Item.of('kubejs:porcelain_clay'), ['bone_meal', 'clay_ball']).id('aof:porcelain_clay')
 })
