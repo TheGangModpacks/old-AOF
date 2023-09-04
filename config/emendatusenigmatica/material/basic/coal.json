@@ -15,5 +15,10 @@
   },
   "colors": {
     "materialColor": "3C3C3C"
+  },
+  "oreDrop": {
+    "drop": "minecraft:coal",
+    "min": 1,
+    "max": 2
   }
 }

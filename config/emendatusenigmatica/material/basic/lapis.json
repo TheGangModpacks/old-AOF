@@ -14,5 +14,10 @@
     },
     "colors": {
       "materialColor": "345EC3"
+    },
+    "oreDrop": {
+      "drop": "minecraft:lapis_lazuli",
+      "min": 1,
+      "max": 5
     }
   }

@@ -36,5 +36,10 @@
   "colors": {
     "materialColor": "D8D8D8",
     "fluidColor": "D8D8D8"
-   }
+   },
+   "oreDrop": {
+    "drop": "minecraft:raw_iron",
+    "min": 1,
+    "max": 1
+  }
 }

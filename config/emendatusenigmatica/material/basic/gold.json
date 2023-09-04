@@ -23,5 +23,10 @@
   "colors": {
     "materialColor": "FDF55F",
     "fluidColor": "FDF55F"
+  },
+  "oreDrop": {
+    "drop": "minecraft:raw_gold",
+    "min": 1,
+    "max": 1
   }
 }

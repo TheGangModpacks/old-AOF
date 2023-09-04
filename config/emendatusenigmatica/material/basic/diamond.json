@@ -13,5 +13,10 @@
   },
   "colors": {
     "materialColor": "20A8B3"
+  },
+  "oreDrop": {
+    "drop": "minecraft:diamond",
+    "min": 1,
+    "max": 1
   }
 }
