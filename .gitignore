@@ -10,6 +10,8 @@
 !config/emendatusenigmatica/material/**
 !config/emendatusenigmatica/strata/
 !config/emendatusenigmatica/strata/**
+!config/emendatusenigmatica/deposit/
+!config/emendatusenigmatica/deposit/**
 !/kubejs/assets/
 !/kubejs/assets/**
 !/kubejs/client_scripts/
