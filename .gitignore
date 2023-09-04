@@ -8,6 +8,8 @@
 !config/ftbquests/quests/**
 !config/emendatusenigmatica/material/
 !config/emendatusenigmatica/material/**
+!config/emendatusenigmatica/strata/
+!config/emendatusenigmatica/strata/**
 !/kubejs/assets/
 !/kubejs/assets/**
 !/kubejs/client_scripts/
