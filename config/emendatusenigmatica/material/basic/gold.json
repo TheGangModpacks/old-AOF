@@ -14,7 +14,8 @@
     "dirty_dust",
     "slurry",
     "rod",
-    "fluid"
+    "fluid",
+    "ore"
   ],
   "properties": {
     "materialType": "metal",

@@ -1,18 +1,13 @@
 {
-    "id": "silica",
-    "source": "modded",
-    "localizedName": "Silica",
-    "processedTypes": [
-      "storage_block",
-      "dust",
-      "cluster",
-      "ingot"
-    ],
-    "properties": {
-      "materialType": "gem",
-      "harvestLevel": 2
-    },
-    "colors": {
-      "materialColor": "00DDAD"
-    }
+  "id": "silica",
+  "source": "modded",
+  "localizedName": "Silica",
+  "processedTypes": ["storage_block", "dust", "cluster", "ingot"],
+  "properties": {
+    "materialType": "gem",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "00DDAD"
+  }
 }

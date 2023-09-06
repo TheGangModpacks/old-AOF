@@ -1,15 +1,13 @@
 {
-    "id": "trio_exopherilium_base",
-    "source": "modded",
-    "localizedName": "Trio Exopherilium Base",
-    "processedTypes": [
-      "dust"
-    ],
-    "properties": {
+  "id": "trio_exopherilium_base",
+  "source": "modded",
+  "localizedName": "Trio Exopherilium Base",
+  "processedTypes": ["dust"],
+  "properties": {
     "materialType": "alloy",
     "harvestLevel": 3
   },
-    "colors": {
-      "materialColor": "af8382"
-    }
+  "colors": {
+    "materialColor": "af8382"
+  }
 }

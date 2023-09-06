@@ -1,17 +1,13 @@
 {
-	"id": "hop_graphite",
-	"source": "modded",
-	"localizedName": "HOP Graphite",
-	"processedTypes": [
-	"dust",
-	"ingot",
-    "fluid"
-	],
-	"properties": {
-		"materialType": "metal",
-		"harvestLevel": 2
-	},
-	"colors": {
-		"materialColor": "1E1D1D"
-	}
+  "id": "hop_graphite",
+  "source": "modded",
+  "localizedName": "HOP Graphite",
+  "processedTypes": ["dust", "ingot", "fluid"],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "1E1D1D"
+  }
 }

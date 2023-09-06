@@ -1,9 +1,9 @@
 {
-  "id": "diamond",
+  "id": "emerald",
   "source": "vanilla",
-  "localizedName": "Diamond",
+  "localizedName": "Emerald",
   "disableDefaultOre": false,
-  "processedTypes": ["dust", "gear", "ore"],
+  "processedTypes": ["dust", "ore"],
   "properties": {
     "materialType": "gem",
     "harvestLevel": 2
@@ -12,7 +12,7 @@
     "materialColor": "20A8B3"
   },
   "oreDrop": {
-    "drop": "minecraft:diamond",
+    "drop": "minecraft:emerald",
     "min": 1,
     "max": 1
   }

@@ -1,20 +1,15 @@
 {
-	"id": "apatite",
-	"source": "modded",
-	"localizedName": "Apatite",
-	"processedTypes": [
-	"ore",
-	"gem",
-	"dust",
-	"storage_block"
-	],
-	"properties": {
-		"materialType": "gem",
-		"gemTexture": 5,
-		"harvestLevel": 2
-	},
-	"colors": {
-		"materialColor": "0C4175"
-	},
-	"oreDrop": {"drop": "emendatusenigmatica:apatite_gem", "min": 1, "max": 4}
+  "id": "apatite",
+  "source": "modded",
+  "localizedName": "Apatite",
+  "processedTypes": ["ore", "gem", "dust", "storage_block"],
+  "properties": {
+    "materialType": "gem",
+    "gemTexture": 5,
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "0C4175"
+  },
+  "oreDrop": { "drop": "emendatusenigmatica:apatite_gem", "min": 1, "max": 4 }
 }

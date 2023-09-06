@@ -2,10 +2,7 @@
   "id": "bauxite",
   "source": "modded",
   "localizedName": "Bauxite",
-  "processedTypes": [
-    "ore",
-    "raw"
-  ],
+  "processedTypes": ["ore", "raw"],
   "properties": {
     "materialType": "metal",
     "harvestLevel": 1
@@ -18,6 +15,6 @@
   "colors": {
     "fluidColor": "BD6858",
     "materialColor": "BD6858",
-	  "gasColor": "BD6858"
+    "gasColor": "BD6858"
   }
 }

@@ -1,17 +1,13 @@
 {
-    "id": "terrasteel",
-    "source": "modded",
-    "localizedName": "Terrasteel",
-    "processedTypes": [
-      "plate",
-      "gear",
-      "rod"
-    ],
-    "properties": {
-      "materialType": "metal",
-      "harvestLevel": 2
-    },
-    "colors": {
-      "materialColor": "2BB93B"
-    }
+  "id": "terrasteel",
+  "source": "modded",
+  "localizedName": "Terrasteel",
+  "processedTypes": ["plate", "gear", "rod"],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "2BB93B"
+  }
 }

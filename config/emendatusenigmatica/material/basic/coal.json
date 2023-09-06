@@ -3,10 +3,7 @@
   "source": "vanilla",
   "localizedName": "Coal",
   "disableDefaultOre": false,
-  "processedTypes": [
-    "dust",
-    "fluid"
-  ],
+  "processedTypes": ["dust", "fluid"],
   "properties": {
     "materialType": "gem",
     "harvestLevel": 0,

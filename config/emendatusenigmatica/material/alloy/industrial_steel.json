@@ -1,0 +1,14 @@
+{
+  "id": "industrial_steel",
+  "source": "modded",
+  "localizedName": "Industrial Steel",
+  "processedTypes": ["plate", "ingot", "nugget", "storage_block", "fluid"],
+  "properties": {
+    "materialType": "alloy",
+    "harvestLevel": 4
+  },
+  "colors": {
+    "fluidColor": "2D2D2D",
+    "materialColor": "2D2D2D"
+  }
+}

@@ -1,68 +1,70 @@
 {
-    "id": "tungsten",
-    "source": "modded",
-    "localizedName": "Tungsten",
-    "processedTypes": [
-      "storage_block",
-      "ingot",
-      "nugget",
-      "dust",
-      "helmet",
-      "chestplate",
-      "leggings",
-      "boots",
-      "shield",
-      "pickaxe",
-      "axe",
-      "shovel",
-      "hoe",
-      "sword",
-      "paxel"
-    ],
-    "properties": {
-      "materialType": "metal",
-      "harvestLevel": 4,
-      "isBurnable": false,
-      "isEmissive": false,
-      "hasOxidization": true
-    },
-    "colors": {
-      "fluidColor": "b5ac9f",
-      "materialColor": "b5ac9f",
-      "oxidizationColor": "B5FF9F"
-    },
-    "armor": {
-      "setArmor": true,
-      "effects": [{
+  "id": "tungsten",
+  "source": "modded",
+  "localizedName": "Tungsten",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "nugget",
+    "dust",
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots",
+    "shield",
+    "pickaxe",
+    "axe",
+    "shovel",
+    "hoe",
+    "sword",
+    "paxel"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 4,
+    "isBurnable": false,
+    "isEmissive": false,
+    "hasOxidization": true
+  },
+  "colors": {
+    "fluidColor": "b5ac9f",
+    "materialColor": "b5ac9f",
+    "oxidizationColor": "B5FF9F"
+  },
+  "armor": {
+    "setArmor": true,
+    "effects": [
+      {
         "effect": "minecraft:resistance",
         "level": 2,
         "showParticles": false,
         "showIcon": false
-      }],
-      "setDesc": "Tungsten being an extremely durable material brings much defence to whom that wear it.",
-      "toughness": 8.0,
-      "enchantability": 20,
-      "knockback": 5.0,
-      "ARMOR": {
-        "helmet": { "protection": 8, "durability": 7564 },
-        "chestplate": { "protection": 8, "durability": 7564 },
-        "leggings": { "protection": 8, "durability": 7564 },
-        "boots": { "protection": 8, "durability": 7564 },
-        "shield": { "durability": 3732 }
       }
-    },
-    "tools": {
-      "attackDamage": 4.0,
-      "level": 4,
-      "enchantability": 20,
-      "efficiency": 12.0,
-      "TOOL": {
-        "pickaxe": { "damage": 6.2, "speed": -14.2, "durability": 5233},
-        "axe": { "damage": 15.6, "speed": -14.0, "durability": 5233},
-        "shovel": { "damage": 6.2, "speed": -14.2, "durability": 5233},
-        "hoe": { "damage": 7.2, "speed": -14.2, "durability": 5233},
-        "sword": { "damage": 12.2, "speed": -13.4, "durability": 5233},
-        "paxel": { "damage": 8.2, "speed": -14.2, "durability": 15699}
-      }
+    ],
+    "setDesc": "Tungsten being an extremely durable material brings much defence to whom that wear it.",
+    "toughness": 8.0,
+    "enchantability": 20,
+    "knockback": 5.0,
+    "ARMOR": {
+      "helmet": { "protection": 8, "durability": 7564 },
+      "chestplate": { "protection": 8, "durability": 7564 },
+      "leggings": { "protection": 8, "durability": 7564 },
+      "boots": { "protection": 8, "durability": 7564 },
+      "shield": { "durability": 3732 }
+    }
+  },
+  "tools": {
+    "attackDamage": 4.0,
+    "level": 4,
+    "enchantability": 20,
+    "efficiency": 12.0,
+    "TOOL": {
+      "pickaxe": { "damage": 6.2, "speed": -14.2, "durability": 5233 },
+      "axe": { "damage": 15.6, "speed": -14.0, "durability": 5233 },
+      "shovel": { "damage": 6.2, "speed": -14.2, "durability": 5233 },
+      "hoe": { "damage": 7.2, "speed": -14.2, "durability": 5233 },
+      "sword": { "damage": 12.2, "speed": -13.4, "durability": 5233 },
+      "paxel": { "damage": 8.2, "speed": -14.2, "durability": 15699 }
     }
   }
+}

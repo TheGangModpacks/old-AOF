@@ -11,7 +11,7 @@
     "dust",
     "plate",
     "gear",
-	"rod",
+    "rod",
     "slurry",
     "crystal",
     "shard",
@@ -27,7 +27,7 @@
     "isEmissive": false,
     "hasOxidization": false
   },
-    "oreDrop": {
+  "oreDrop": {
     "drop": "emendatusenigmatica:raw_nickel",
     "min": 1,
     "max": 1
@@ -35,6 +35,6 @@
   "colors": {
     "fluidColor": "D8B87D",
     "materialColor": "D8B87D",
-	  "gasColor": "D8B87D"
+    "gasColor": "D8B87D"
   }
 }

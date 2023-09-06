@@ -16,14 +16,14 @@
     "shard",
     "clump",
     "dirty_dust",
-	  "crushed_ore",
+    "crushed_ore",
     "fluid"
   ],
   "properties": {
     "materialType": "metal",
     "harvestLevel": 2
   },
-    "oreDrop": {
+  "oreDrop": {
     "drop": "emendatusenigmatica:raw_silver",
     "min": 1,
     "max": 1
@@ -31,6 +31,6 @@
   "colors": {
     "fluidColor": "83AAB2",
     "materialColor": "83AAB2",
-	  "gasColor": "83AAB2"
+    "gasColor": "83AAB2"
   }
 }

@@ -1,28 +1,28 @@
 {
-    "id": "aluminum",
-    "source": "modded",
-    "localizedName": "Aluminum",
-    "processedTypes": [
-      "storage_block",
-      "ingot",
-      "nugget",
-      "dust",
-      "plate",
-      "rod",
-      "crystal",
-      "shard",
-      "clump",
-      "dirty_dust",
-      "crushed_ore",
-      "fluid"
-    ],
-    "properties": {
-      "materialType": "metal",
-      "harvestLevel": 1
-    },
-    "colors": {
-      "fluidColor": "a2a8ab",
-      "materialColor": "a2a8ab",
-      "gasColor": "a2a8ab"
-    }
+  "id": "aluminum",
+  "source": "modded",
+  "localizedName": "Aluminum",
+  "processedTypes": [
+    "storage_block",
+    "ingot",
+    "nugget",
+    "dust",
+    "plate",
+    "rod",
+    "crystal",
+    "shard",
+    "clump",
+    "dirty_dust",
+    "crushed_ore",
+    "fluid"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 1
+  },
+  "colors": {
+    "fluidColor": "a2a8ab",
+    "materialColor": "a2a8ab",
+    "gasColor": "a2a8ab"
+  }
 }
