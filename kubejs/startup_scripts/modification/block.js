@@ -1,3 +1,4 @@
+//priority: 1
 const $SoundType = Java.loadClass('net.minecraft.world.level.block.SoundType')
 
 
@@ -6,10 +7,10 @@ function modifySound (event, block, SOUND) {
         event.soundType = SOUND
     })
 }
-
 BlockEvents.modification(b =>{
-    modifySound(b, 'cauldron', $SoundType.CALCITE)
-    modifySound(b, 'water_cauldron', $SoundType.CALCITE)
-    modifySound(b, 'lava_cauldron', $SoundType.CALCITE)
-    modifySound(b, 'powder_snow_cauldron', $SoundType.CALCITE)
+    let COPPER = $SoundType.COPPER
+    modifySound(b, 'cauldron', COPPER)
+    modifySound(b, 'water_cauldron', COPPER)
+    modifySound(b, 'lava_cauldron', COPPER)
+    modifySound(b, 'powder_snow_cauldron', COPPER)
 })
