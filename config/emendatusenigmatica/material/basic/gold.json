@@ -2,7 +2,7 @@
   "id": "gold",
   "source": "vanilla",
   "localizedName": "Gold",
-  "disableDefaultOre": false,
+  "disableDefaultOre": true,
   "processedTypes": [
     "dust",
     "plate",

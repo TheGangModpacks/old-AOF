@@ -2,7 +2,7 @@
   "id": "diamond",
   "source": "vanilla",
   "localizedName": "Diamond",
-  "disableDefaultOre": false,
+  "disableDefaultOre": true,
   "processedTypes": ["dust", "gear", "ore"],
   "properties": {
     "materialType": "gem",

@@ -2,7 +2,7 @@
   "id": "lapis",
   "source": "vanilla",
   "localizedName": "Lapis Lazuli",
-  "disableDefaultOre": false,
+  "disableDefaultOre": true,
   "processedTypes": ["dust", "gear", "fluid"],
   "properties": {
     "materialType": "gem",

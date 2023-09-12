@@ -1,18 +1,19 @@
 {
   "id": "quartz",
   "source": "vanilla",
-  "localizedName": "Quartz",
-  "processedTypes": ["dust", "fluid"],
+  "localizedName": "Nether Quartz",
+  "disableDefaultOre": true,
+  "processedTypes": ["ore", "dust"],
   "properties": {
     "materialType": "gem",
-    "harvestLevel": 2
-  },
-  "colors": {
-    "materialColor": "E5E5E5"
+    "harvestLevel": 0
   },
   "oreDrop": {
     "drop": "minecraft:quartz",
     "min": 1,
-    "max": 3
+    "max": 1
+  },
+  "colors": {
+    "materialColor": "ddd4c6"
   }
 }

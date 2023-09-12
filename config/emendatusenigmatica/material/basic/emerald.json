@@ -2,7 +2,7 @@
   "id": "emerald",
   "source": "vanilla",
   "localizedName": "Emerald",
-  "disableDefaultOre": false,
+  "disableDefaultOre": true,
   "processedTypes": ["dust", "ore"],
   "properties": {
     "materialType": "gem",
