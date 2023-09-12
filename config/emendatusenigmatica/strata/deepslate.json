@@ -1,5 +1,5 @@
 {
-	"id": "deepslate",
+	"id": "minecraft_deepslate",
 	"baseTexture": "minecraft:block/deepslate",
 	"suffix": "deepslate",
 	"fillerType": "minecraft:deepslate",

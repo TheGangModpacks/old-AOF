@@ -7,7 +7,7 @@
     "material": "coal",
     "fillerTypes": ["minecraft_stone", "minecraft_deepslate"],
     "chance": 20,
-    "size": 17,
+    "size": 16,
     "minYLevel": 0,
     "maxYLevel": 192,
     "placement": "uniform",

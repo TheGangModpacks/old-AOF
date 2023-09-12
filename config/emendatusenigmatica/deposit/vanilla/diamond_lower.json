@@ -8,7 +8,7 @@
     "fillerTypes": ["minecraft_stone", "minecraft_deepslate"],
     "chance": 4,
     "size": 8,
-    "minYLevel": -80,
+    "minYLevel": -64,
     "maxYLevel": 80,
     "placement": "triangle",
     "rarity": "common"

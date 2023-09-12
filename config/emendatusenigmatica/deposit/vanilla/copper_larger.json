@@ -7,7 +7,7 @@
     "material": "copper",
     "fillerTypes": ["minecraft_stone", "minecraft_deepslate"],
     "chance": 16,
-    "size": 20,
+    "size": 16,
     "minYLevel": -16,
     "maxYLevel": 122,
     "placement": "triangle",
