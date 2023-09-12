@@ -32,3 +32,4 @@
 !/schematics/
 !/schematics/**
 *.txt
+/kubejs/assets/ftb*
