@@ -15,8 +15,8 @@
     "shard",
     "clump",
     "dirty_dust",
-	"crushed_ore",
-  "fluid"
+    "crushed_ore",
+    "fluid"
   ],
   "properties": {
     "materialType": "metal",
@@ -25,14 +25,14 @@
     "isEmissive": false,
     "hasOxidization": false
   },
-    "oreDrop": {
+  "oreDrop": {
     "drop": "emendatusenigmatica:raw_uranium",
     "min": 1,
-    "max": 3
+    "max": 1
   },
   "colors": {
     "fluidColor": "37A119",
     "materialColor": "37A119",
-	"gasColor": "37A119"
+    "gasColor": "37A119"
   }
 }

@@ -29,6 +29,11 @@
   "colors": {
     "fluidColor": "96B685",
     "materialColor": "96B685",
-	"gasColor": "96B685"
+    "gasColor": "96B685"
+  },
+  "oreDrop": {
+    "drop": "emendatusenigmatica:raw_zinc",
+    "min": 1,
+    "max": 1
   }
 }

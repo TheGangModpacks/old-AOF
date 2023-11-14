@@ -1,0 +1,45 @@
+{
+    "type": "emendatusenigmatica:geode_deposit",
+    "dimension": "minecraft:overworld",
+    "biomes": ["minecraft:ice_spikes"],
+    "registryName": "silica_geode",
+    "config": {
+        "outerShellBlocks": [
+            {"block": "create:veridium", "weight": 85},
+            {"block": "minecraft:prismarine", "weight": 15}
+        ],
+        "innerShellBlocks": [
+            {"block": "minecraft:diorite", "weight": 55},
+            {"block": "minecraft:tuff", "weight": 45}
+        ],
+        "innerBlocks": [
+            {"block": "emendatusenigmatica:silica_cluster_shard_block", "weight": 60},
+            {"block": "emendatusenigmatica:budding_silica", "weight": 40}
+        ],
+        "clusters": [
+            "emendatusenigmatica:small_silica_bud",
+            "emendatusenigmatica:medium_silica_bud"
+        ],
+        "fillBlocks": [
+            {"block": "minecraft:air", "weight": 10}
+        ],
+        "chance": 50,
+        "rarity": "rare",
+        "crackChance": 0,
+        "minYLevel": -54,
+        "maxYLevel": 0,
+        "placement": "uniform",
+        "generateSamples": false,
+        "sampleBlocks": [],
+        "fillerTypes": [
+            "minecraft_stone",
+            "minecraft_deepslate",
+            "minecraft_diorite",
+            "minecraft_andesite",
+            "minecraft_tuff",
+            "minecraft_granite",
+            "minecraft_prismarine",
+            "create_veridium"
+        ]
+    }
+}

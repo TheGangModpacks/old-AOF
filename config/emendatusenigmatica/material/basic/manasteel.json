@@ -1,17 +1,13 @@
 {
-    "id": "manasteel",
-    "source": "modded",
-    "localizedName": "Manasteel",
-    "processedTypes": [
-      "plate",
-      "gear",
-      "rod"
-    ],
-    "properties": {
-      "materialType": "metal",
-      "harvestLevel": 2
-    },
-    "colors": {
-      "materialColor": "67B9EE"
-    }
+  "id": "manasteel",
+  "source": "modded",
+  "localizedName": "Manasteel",
+  "processedTypes": ["plate", "gear", "rod"],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "67B9EE"
+  }
 }

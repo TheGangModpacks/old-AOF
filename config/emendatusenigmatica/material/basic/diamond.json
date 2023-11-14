@@ -2,16 +2,18 @@
   "id": "diamond",
   "source": "vanilla",
   "localizedName": "Diamond",
-  "disableDefaultOre": false,
-  "processedTypes": [
-    "dust",
-    "gear"
-  ],
+  "disableDefaultOre": true,
+  "processedTypes": ["dust", "gear", "ore"],
   "properties": {
     "materialType": "gem",
     "harvestLevel": 2
   },
   "colors": {
     "materialColor": "20A8B3"
+  },
+  "oreDrop": {
+    "drop": "minecraft:diamond",
+    "min": 1,
+    "max": 1
   }
 }

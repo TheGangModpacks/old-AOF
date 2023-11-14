@@ -2,7 +2,7 @@
   "id": "gold",
   "source": "vanilla",
   "localizedName": "Gold",
-  "disableDefaultOre": false,
+  "disableDefaultOre": true,
   "processedTypes": [
     "dust",
     "plate",
@@ -14,7 +14,8 @@
     "dirty_dust",
     "slurry",
     "rod",
-    "fluid"
+    "fluid",
+    "ore"
   ],
   "properties": {
     "materialType": "metal",
@@ -23,5 +24,10 @@
   "colors": {
     "materialColor": "FDF55F",
     "fluidColor": "FDF55F"
+  },
+  "oreDrop": {
+    "drop": "minecraft:raw_gold",
+    "min": 1,
+    "max": 1
   }
 }

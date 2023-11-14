@@ -2,11 +2,8 @@
   "id": "coal",
   "source": "vanilla",
   "localizedName": "Coal",
-  "disableDefaultOre": false,
-  "processedTypes": [
-    "dust",
-    "fluid"
-  ],
+  "disableDefaultOre": true,
+  "processedTypes": ["dust", "fluid", "ore"],
   "properties": {
     "materialType": "gem",
     "harvestLevel": 0,
@@ -15,5 +12,10 @@
   },
   "colors": {
     "materialColor": "3C3C3C"
+  },
+  "oreDrop": {
+    "drop": "minecraft:coal",
+    "min": 1,
+    "max": 1
   }
 }

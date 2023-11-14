@@ -1,17 +1,13 @@
 {
-    "id": "elementium",
-    "source": "modded",
-    "localizedName": "Elementium",
-    "processedTypes": [
-      "plate",
-      "gear",
-      "rod"
-    ],
-    "properties": {
-      "materialType": "metal",
-      "harvestLevel": 2
-    },
-    "colors": {
-      "materialColor": "C543A8"
-    }
+  "id": "elementium",
+  "source": "modded",
+  "localizedName": "Elementium",
+  "processedTypes": ["plate", "gear", "rod"],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "C543A8"
+  }
 }

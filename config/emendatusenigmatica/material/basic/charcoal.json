@@ -1,15 +1,13 @@
 {
-	"id": "charcoal",
-	"source": "vanilla",
-	"localizedName": "Charcoal",
-	"processedTypes": [
-	"dust"
-	],
-	"properties": {
-		"materialType": "gem",
-		"harvestLevel": 2
-	},
-	"colors": {
-		"materialColor": "36454F"
-	}
+  "id": "charcoal",
+  "source": "vanilla",
+  "localizedName": "Charcoal",
+  "processedTypes": ["dust"],
+  "properties": {
+    "materialType": "gem",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "materialColor": "36454F"
+  }
 }

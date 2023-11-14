@@ -12,9 +12,9 @@
     "fluid"
   ],
   "properties": {
-  "materialType": "alloy",
-  "harvestLevel": 2
-},
+    "materialType": "alloy",
+    "harvestLevel": 2
+  },
   "colors": {
     "fluidColor": "87928c",
     "materialColor": "87928c"

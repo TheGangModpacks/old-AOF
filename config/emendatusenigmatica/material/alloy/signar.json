@@ -1,18 +1,13 @@
 {
-    "id": "signar",
-    "source": "modded",
-    "localizedName": "Signar",
-    "processedTypes": [
-      "storage_block",
-      "ingot",
-      "nugget",
-      "dust"
-    ],
-    "properties": {
+  "id": "signar",
+  "source": "modded",
+  "localizedName": "Signar",
+  "processedTypes": ["storage_block", "ingot", "nugget", "dust"],
+  "properties": {
     "materialType": "alloy",
     "harvestLevel": 3
   },
-    "colors": {
-      "materialColor": "c37e48"
-    }
+  "colors": {
+    "materialColor": "c37e48"
+  }
 }

@@ -1,17 +1,13 @@
 {
-    "id": "trio_exopherilium",
-    "source": "modded",
-    "localizedName": "Trio Exopherilium",
-    "processedTypes": [
-        "storage_block",
-        "ingot",
-        "nugget"
-    ],
-    "properties": {
+  "id": "trio_exopherilium",
+  "source": "modded",
+  "localizedName": "Trio Exopherilium",
+  "processedTypes": ["storage_block", "ingot", "nugget"],
+  "properties": {
     "materialType": "alloy",
     "harvestLevel": 3
   },
-    "colors": {
-      "materialColor": "a4a47f"
-    }
+  "colors": {
+    "materialColor": "a4a47f"
+  }
 }

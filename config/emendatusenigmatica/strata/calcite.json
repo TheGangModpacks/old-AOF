@@ -1,0 +1,11 @@
+{
+    "id": "minecraft_calcite",
+    "baseTexture": "minecraft:block/calcite",
+    "suffix": "calcite",
+    "fillerType": "minecraft:calcite",
+    "localizedName": "Calcite",
+    "harvestTool": "pickaxe",
+    "hardness": 1.5,
+    "resistance": 6,
+    "sampleStrata": false
+}
