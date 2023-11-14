@@ -3,9 +3,184 @@
 	default_quest_shape: ""
 	filename: "the_beginning"
 	group: ""
+	icon: "minecraft:raw_iron"
 	id: "6466FA3E45B86125"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["77944357B7C9E299"]
+			description: ["These Ores are the base for most things. You'll need them often, so pick some up when possible."]
+			icon: "minecraft:raw_copper"
+			id: "60974E68F291EFF0"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5E8861CD52BF38BC"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "39426C2889CBF8C1"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "207CF05EC2EB4AD4"
+					item: "emendatusenigmatica:raw_tin"
+					type: "item"
+				}
+			]
+			title: "Raw Ores"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60974E68F291EFF0"]
+			description: [
+				"The &7Stone Grinder&r is a primative way of grinding your &7ores&r, unfortunately producing &7Dirty Dust&r most of the time. It uses &6Fuel&r to grind materials."
+				""
+				"&aNote&r: Because the &7Stone Grinder&r is so primative, you have no way to see your &6Fuel&r gauge. It takes &a5 Seconds&r to grind, so think of it like a furnace."
+			]
+			id: "5E84F0A742938266"
+			shape: "gear"
+			tasks: [{
+				id: "133946D500F6D0B6"
+				item: "kubejs:stone_grinder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E84F0A742938266"
+				"068A574920837B52"
+			]
+			description: ["&1Dirty Dust&r on it's own is worthless, and it won't be able to make an &aIngot&r. Instead, &bWashing &1Dirty Dust&r can get you &3Dust&r, which you can then smelt into an Ingot."]
+			id: "325F6AA3CB26B98F"
+			tasks: [{
+				id: "40535226C0C87889"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["325F6AA3CB26B98F"]
+			description: ["Getting &aIngots&r should be simple enough. Make a &8Furnace&r, put in something that &6burns&r, along with your &3Dust&r, and you will get &aIngots&r!"]
+			icon: "minecraft:copper_ingot"
+			id: "0393F075DC584AFC"
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "3A8BA76C25AA619C"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "2964580D82CA0A3E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "17D7A4C0FA9570CD"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "2E2104E327B69DEA"
+					item: "kubejs:tin_ingot"
+					type: "item"
+				}
+			]
+			title: "Ingots!"
+			x: -4.464285714285715d
+			y: 1.2464285714285666d
+		}
+		{
+			description: [
+				"Welcome to &eAll of Factory&r! We are pleased to see you've come to work for &2TGM&r-&2Corp&r, we have prepared some guides for you to follow along, to build the biggest Factory in the world!"
+				""
+				"If you'd like to open your &aGuide&r, without the &aGuide Book&r, you can press &4[&fZ&4]&r to open it &4(&eCan be reconfigured&4)&r. "
+			]
+			icon: "emendatusenigmatica:bronze_gear"
+			id: "75AA92448D336FF3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "16ACC6503213F688"
+				title: "All of Factory"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77944357B7C9E299"]
+			description: ["&ePorcelain Clay&r is used for making &8Molds&r, &cKilns&r, and most importantly, &8Caldrons&r."]
+			id: "068A574920837B52"
+			tasks: [{
+				id: "799E88DC422BC5A7"
+				item: "kubejs:porcelain_clay"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75AA92448D336FF3"]
+			description: ["Start your journey off to a good start with some &6Logs &rand &7Clay&r."]
+			icon: "minecraft:oak_log"
+			id: "77944357B7C9E299"
+			rewards: [{
+				id: "2596B3F7E778D471"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "13EEAC637CCC2BC6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "16x Logs"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "721613BB9DCA3CC6"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			title: "Gathering Supplies"
+			x: -4.5d
+			y: -3.0d
+		}
+	]
 	title: "The Beginning"
 }
