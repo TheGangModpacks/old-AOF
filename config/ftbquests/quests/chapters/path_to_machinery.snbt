@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "path_to_machinery"
+	group: ""
+	icon: "kubejs:tin_furnace_generator"
+	id: "5213733FE158D1B7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0393F075DC584AFC"]
+			description: [
+				"You may find that you can't mine some ores with your &7Stone Pickaxe&r. That is because we have new &aMining Levels&r."
+				""
+				"You will need to make new Tools to be able to mine new things."
+			]
+			id: "7CFF94072E6E9862"
+			tasks: [{
+				id: "1EEBD25FC80EC208"
+				item: {
+					Count: 1b
+					id: "kubejs:tin_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CFF94072E6E9862"]
+			description: [
+				"All &6Tool Tiers&r:"
+				""
+				"&lTier 1&r: &eWood &r- &eWood"
+				""
+				"&lTier 2&r: &7Stone &r- &7Stone&r, &6Copper&r, &2Zinc"
+				""
+				"&lTier 3&r: &1Tin &r- &1Tin&r, &6Brass"
+				""
+				"&lTier 4&r: Iron - Iron, &eNickel&r, &6Bronze&r, &5Lead&r, &7Aluminum&r, &eConstantan&r, &fInvar,"
+				"&eElectrum"
+				""
+				"&lTier 5&r: &bDiamond &r- &bDiamond&r, &8Steel&r, &3Osmium&r, &fSilver&r, &2Tungsten"
+				""
+				"&lTier 6&r: &0Netherite &r- &0Netherite&r, &eLumium&r, &4Signalum&r, &6Signar"
+				""
+				"&lTier 7&r: &1Enderium &r- &1Enderium"
+			]
+			id: "4346D070A5A11F3B"
+			min_width: 400
+			tasks: [{
+				id: "45731D8F5A3D4980"
+				title: "Tool Tiers"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CFF94072E6E9862"]
+			description: ["You can get Iron the same way you do &1Tin &rand &6Copper&r."]
+			icon: "minecraft:iron_ingot"
+			id: "32E43D19FCA8C2B2"
+			tasks: [
+				{
+					id: "41D38EEC9B663588"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "5486C72A0358D3A7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Getting Iron"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32E43D19FCA8C2B2"]
+			description: ["The &7Smithing Table&r is used for making industrial Tools."]
+			id: "03F92B8392EB3F87"
+			tasks: [{
+				id: "756D05C9A1324004"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03F92B8392EB3F87"]
+			description: ["The &2Engineer's Hammer&r provides ways to build Machines easily, and quickly!"]
+			id: "5904A5BE087B3C11"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "402AD54EF2872348"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5904A5BE087B3C11"]
+			description: ["Time to make &8Coal Coke&r! Build a 3x3x3 of Coke Brick, then smack any side with your &2Hammer&r. Then, drop some coal in and you're good!"]
+			id: "4C1E9BEBCC385C61"
+			tasks: [{
+				count: 27L
+				id: "2CB6CDBE92668303"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 0.5d
+			y: 4.0d
+		}
+	]
+	title: "Path to Machinery"
+}

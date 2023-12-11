@@ -1,5 +1,5 @@
 {
-	"id": "blackstone",
+	"id": "minecraft_blackstone",
 	"baseTexture": "minecraft:block/blackstone",
 	"suffix": "blackstone",
 	"fillerType": "minecraft:blackstone",

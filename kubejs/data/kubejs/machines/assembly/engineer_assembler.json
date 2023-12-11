@@ -1,0 +1,128 @@
+{
+  "name": "Engineer's Tool Table",
+  "appearance": {
+    "block": "immersiveengineering:craftingtable",
+    "shape": "immersiveengineering:craftingtable"
+  },
+  "components": [
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:result"
+    },
+    {
+      "mode": "input",
+      "id": "slot0",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "slot1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "slot2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "slot3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "slot4",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "slot5",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "slot6",
+      "type": "custommachinery:item"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 136,
+      "y": 35,
+      "id": "output1",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 46,
+      "y": 16,
+      "id": "slot0",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 65,
+      "y": 16,
+      "id": "slot1",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 84,
+      "y": 16,
+      "id": "slot2",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 46,
+      "y": 35,
+      "id": "slot3",
+      "type": "custommachinery:slot"
+    },
+    
+    {
+      "x": 65,
+      "y": 35,
+      "id": "slot4",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 84,
+      "y": 35,
+      "id": "slot5",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 65,
+      "y": 54,
+      "id": "slot6",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 108,
+      "y": 35,
+      "type": "custommachinery:progress",
+      "texture_empty": "aof:textures/gui/assemble_progress_empty.png",
+      "texture_filled": "aof:textures/gui/assemble_progress_filled.png"
+    },
+    {
+      "text": "Engineer's Tool Table",
+      "x": 47,
+      "y": 5,
+      "type": "custommachinery:text"
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:craft"
+  }
+}

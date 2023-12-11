@@ -1,0 +1,60 @@
+{
+    "name": "Void Miner",
+    "appearance": {
+        "hardness": 1,
+        "requires_tool": false
+    },
+    "components": [
+        {
+            "type": "custommachinery:item",
+            "id": "output1",
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output2",
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output3",
+            "mode": "output"
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 47,
+            "y": 80
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 67,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "output1",
+            "x": 100,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "output2",
+            "x": 130,
+            "y": 30
+        },
+        {
+            "type": "custommachinery:slot",
+            "id": "output3",
+            "x": 160,
+            "y": 30
+        }
+    ]
+}

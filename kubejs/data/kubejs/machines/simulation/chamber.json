@@ -1,0 +1,97 @@
+{
+    "name": "Simulation Chamber",
+    "appearance": {
+      "block": "minecraft:stone",
+      "running": {
+        "ambient_sound": "thermal:block.machine_pulverizer"
+      }
+    },
+    "components": [
+      {
+        "mode": "output",
+        "id": "output0",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "soul",
+        "type":"custommachinery:item",
+        "filter": ["quark:soul_bead"],
+        "whitelist": true
+      },
+      {
+        "mode": "input",
+        "id": "model",
+        "type":"custommachinery:item"
+      },
+      {
+        "capacity": 1000000,
+        "type": "custommachinery:energy"
+      }
+    ],
+    "gui": [
+      {
+        "texture": "aof:textures/gui/furnace_gui.png",
+        "x": 40,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 83,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "x": 95,
+        "y": 16,
+        "id": "soul",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 95,
+        "y": 52,
+        "id": "model",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 137,
+        "y": 34,
+        "id": "output0",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 155,
+        "y": 34,
+        "id": "output1",
+        "type": "custommachinery:slot"
+      },
+      {
+        "text": "Simulation Chamber",
+        "x": 47,
+        "y": 5,
+        "type": "custommachinery:text"
+      },
+      {
+        "x": 96,
+        "y": 35,
+        "type": "custommachinery:progress",
+        "texture_empty": "aof:textures/gui/assemble_progress_empty.png",
+        "texture_filled": "aof:textures/gui/assemble_progress_filled.png"
+      },
+      {
+        "x": 47,
+        "y": 16,
+        "type": "custommachinery:energy"
+      },
+      {
+        "x": 190,
+        "y": 5,
+        "type": "custommachinery:status"
+      }
+    ]
+}

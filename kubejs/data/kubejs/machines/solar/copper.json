@@ -1,0 +1,19 @@
+{
+  "name": "Copper Solar Panel",
+  "appearance": {
+    "block": "kubejs:machine/copper_solar_panel",
+    "shape": [[0.0, 0.0, 0.0, 1.0, 0.0625, 1.0]]
+  },
+  "components": [
+    {
+      "capacity": 3000,
+      "type": "custommachinery:energy",
+      "mode": "output",
+      "config": {
+        "default": "none",
+        "bottom": "output",
+        "output": true
+      }
+    }
+  ]
+}

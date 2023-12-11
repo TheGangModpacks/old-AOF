@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "thermal:item/augments/augment_base",
+      "layer1": "kubejs:item/alloy_induction_upgrade"
+    }
+  }

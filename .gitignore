@@ -4,8 +4,6 @@
 !config/
 !config/ftbquests/
 !config/ftbquests/**
-!config/ftbquests/quests/
-!config/ftbquests/quests/**
 !config/emendatusenigmatica/material/
 !config/emendatusenigmatica/material/**
 !config/emendatusenigmatica/strata/
@@ -21,10 +19,6 @@
 !/kubejs/server_scripts/
 !/kubejs/server_scripts/**
 !/kubejs/
-!/kubejs/data/
-!/kubejs/data/
-!/kubejs/server_scripts/general/
-!/kubejs/server_scripts/general/**/*
 !/kubejs/startup_scripts/
 !/kubejs/startup_scripts/**
 !/resources/

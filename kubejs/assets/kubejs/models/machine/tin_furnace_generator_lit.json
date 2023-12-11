@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "kubejs:block/tin_furnace_generator_end",
+    "side": "kubejs:block/tin_furnace_generator_side",
+    "front": "kubejs:block/tin_furnace_generator_lit"
+  }
+}

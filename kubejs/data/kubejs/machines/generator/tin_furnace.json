@@ -1,0 +1,65 @@
+{
+  "name": "Tin Furnace Generator",
+  "appearance": {
+    "block": "kubejs:machine/tin_furnace_generator",
+    "running": {
+      "light": 12,
+      "ambient_sound": "kubejs:furnace_generator",
+      "block": "kubejs:machine/tin_furnace_generator_lit"
+    }
+  },
+  "components": [
+    {
+      "capacity": 6000,
+      "type": "custommachinery:energy"
+    },
+    {
+      "mode": "input",
+      "id": "fuel",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:fuel"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "aof:textures/gui/blank_gui.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 83,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 118,
+      "y": 20,
+      "type": "custommachinery:energy",
+      "texture_empty": "custommachinery:textures/gui/base_energy_storage_empty_slot.png",
+      "texture_filled": "custommachinery:textures/gui/base_energy_storage_filled_slot.png"
+    },
+    {
+      "x": 119,
+      "y": 60,
+      "id": "fuel",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 121,
+      "y": 44,
+      "type": "custommachinery:fuel"
+    },
+    {
+      "text": "Tin Furnace Generator",
+      "x": 47,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 40,
+      "y": 20
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+    "name": "Assembly Machine",
+    "appearance": {
+      "block": "thermal:machine_crafter",
+      "running": {
+        "light": 15
+      }
+    },
+    "components": [
+      {
+        "capacity": 40000,
+        "type": "custommachinery:energy"
+      },
+      {
+        "type": "custommachinery:fluid",
+        "capacity": 12000,
+        "id": "tank0",
+        "mode": "input"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot0",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot1",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot2",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot3",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot4",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot5",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot6",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot7",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot8",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "tank0",
+        "type":"custommachinery:fluid"
+      }
+    ],
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "x": 191,
+        "y": 35,
+        "type": "custommachinery:energy"
+      },
+      {
+        "x": 136,
+        "y": 35,
+        "id": "output1",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 47,
+        "y": 17,
+        "id": "slot0",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 65,
+        "y": 17,
+        "id": "slot1",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 83,
+        "y": 17,
+        "id": "slot2",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 47,
+        "y": 35,
+        "id": "slot3",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 65,
+        "y": 35,
+        "id": "slot4",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 83,
+        "y": 35,
+        "id": "slot5",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 47,
+        "y": 53,
+        "id": "slot6",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 65,
+        "y": 53,
+        "id": "slot7",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 83,
+        "y": 53,
+        "id": "slot8",
+        "type": "custommachinery:slot"
+      },
+      {
+        "type": "custommachinery:fluid",
+        "x": 173,
+        "y": 35,
+        "id": "tank0"
+      },
+      {
+        "x": 108,
+        "y": 35,
+        "type": "custommachinery:progress",
+        "texture_empty": "aof:textures/gui/assemble_progress_empty.png",
+        "texture_filled": "aof:textures/gui/assemble_progress_filled.png"
+      },
+      {
+        "text": "Assembly Machine",
+        "x": 47,
+        "y": 5,
+        "type": "custommachinery:text"
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 191,
+        "y": 10
+      }
+    ]
+}

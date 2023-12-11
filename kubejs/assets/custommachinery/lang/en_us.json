@@ -1,3 +1,4 @@
 {
-    "custommachinery.gui.element.config.name": "Configure I/O"
+    "custommachinery.gui.element.config.name": "Configure I/O",
+    "custommachinery.requirements.fuel.error": "Requires fuel!"
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Mechanical Generator",
+  "appearance": {
+    "block": "thermal_extra:soul_infused_block",
+    "running": {
+      "light": 15
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "config": {
+          "default": "back",
+          "back": "input"
+      },
+      "stress_impact": 4
+    },
+    {
+      "capacity": 4096,
+      "type": "custommachinery:energy"
+    }
+  ]
+}

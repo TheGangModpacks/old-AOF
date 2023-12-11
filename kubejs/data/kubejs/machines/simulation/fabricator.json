@@ -1,0 +1,159 @@
+{
+    "name": "Loot Fabricator",
+    "appearance": {
+      "block": "thermal_extra:shellite_block"
+    },
+    "components": [
+      {
+        "mode": "output",
+        "id": "output0",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output3",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output4",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output5",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output6",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output7",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output8",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "pearl",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "i",
+        "type":"custommachinery:item"
+      },
+      {
+        "capacity": 1000000,
+        "type": "custommachinery:energy"
+      }
+    ],
+    "gui": [
+      {
+        "texture": "aof:textures/gui/furnace_gui.png",
+        "x": 40,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 83,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "x": 95,
+        "y": 52,
+        "id": "i",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 95,
+        "y": 16,
+        "id": "pearl",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 141,
+        "y": 17,
+        "id": "output0",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 159,
+        "y": 17,
+        "id": "output1",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 177,
+        "y": 17,
+        "id": "output2",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 141,
+        "y": 35,
+        "id": "output3",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 159,
+        "y": 35,
+        "id": "output4",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 177,
+        "y": 35,
+        "id": "output5",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 141,
+        "y": 53,
+        "id": "output6",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 159,
+        "y": 53,
+        "id": "output7",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 177,
+        "y": 53,
+        "id": "output8",
+        "type": "custommachinery:slot"
+      },
+      {
+        "text": "Loot Fabricator",
+        "x": 47,
+        "y": 5,
+        "type": "custommachinery:text"
+      },
+      {
+        "x": 96,
+        "y": 35,
+        "type": "custommachinery:progress",
+        "texture_empty": "aof:textures/gui/assemble_progress_empty.png",
+        "texture_filled": "aof:textures/gui/assemble_progress_filled.png"
+      },
+      {
+        "x": 47,
+        "y": 16,
+        "type": "custommachinery:energy"
+      }
+    ]
+}

@@ -1,82 +1,82 @@
 {
-    "name": "Stone Grinder",
-    "appearance": {
-      "block": "minecraft:smooth_stone",
-      "running": {
-        "ambient_sound": "thermal:block.machine_pulverizer"
-      }
+  "name": "Stone Grinder",
+  "appearance": {
+    "block": "minecraft:smooth_stone",
+    "running": {
+      "ambient_sound": "thermal:block.machine_pulverizer"
+    }
+  },
+  "components": [
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item"
     },
-    "components": [
-      {
-        "mode": "output",
-        "id": "output1",
-        "type": "custommachinery:item"
-      },
-      {
-        "mode": "output",
-        "id": "output2",
-        "type": "custommachinery:item"
-      },
-      {
-        "mode": "input",
-        "id": "fuel",
-        "type":"custommachinery:item",
-        "variant": "custommachinery:fuel"
-      },
-      {
-        "mode": "input",
-        "id": "slot0",
-        "type":"custommachinery:item"
-      }
-    ],
-    "gui": [
-      {
-        "texture": "aof:textures/gui/furnace_gui.png",
-        "x": 40,
-        "y": 0,
-        "type": "custommachinery:texture"
-      },
-      {
-        "x": 47,
-        "y": 83,
-        "type": "custommachinery:player_inventory"
-      },
-      {
-        "x": 95,
-        "y": 52,
-        "id": "fuel",
-        "type": "custommachinery:slot"
-      },
-      {
-        "x": 95,
-        "y": 16,
-        "id": "slot0",
-        "type": "custommachinery:slot"
-      },
-      {
-        "x": 155,
-        "y": 34,
-        "id": "output2",
-        "type": "custommachinery:slot"
-      },
-      {
-        "x": 137,
-        "y": 34,
-        "id": "output1",
-        "type": "custommachinery:slot"
-      },
-      {
-        "text": "Stone Grinder",
-        "x": 47,
-        "y": 5,
-        "type": "custommachinery:text"
-      },
-      {
-        "x": 96,
-        "y": 35,
-        "type": "custommachinery:progress",
-        "texture_empty": "aof:textures/gui/crush_progress_empty.png",
-        "texture_filled": "aof:textures/gui/crush_progress_filled.png"
-      }
-    ]
+    {
+      "mode": "output",
+      "id": "output2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "fuel",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:fuel"
+    },
+    {
+      "mode": "input",
+      "id": "slot0",
+      "type": "custommachinery:item"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "aof:textures/gui/furnace_gui.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 83,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 95,
+      "y": 52,
+      "id": "fuel",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 95,
+      "y": 16,
+      "id": "slot0",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 155,
+      "y": 34,
+      "id": "output2",
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 137,
+      "y": 34,
+      "id": "output1",
+      "type": "custommachinery:slot"
+    },
+    {
+      "text": "Stone Grinder",
+      "x": 47,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 96,
+      "y": 35,
+      "type": "custommachinery:progress",
+      "texture_empty": "aof:textures/gui/crush_progress_empty.png",
+      "texture_filled": "aof:textures/gui/crush_progress_filled.png"
+    }
+  ]
 }

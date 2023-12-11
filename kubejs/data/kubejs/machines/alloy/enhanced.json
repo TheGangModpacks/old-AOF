@@ -1,0 +1,142 @@
+{
+    "name": "Enhanced Alloy Smelter",
+    "appearance": {
+      "block": "thermal:machine_smelter",
+      "running": {
+        "light": 15
+      }
+    },
+    "components": [
+      {
+        "capacity": 40000,
+        "type": "custommachinery:energy"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot0",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot1",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot2",
+        "type":"custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade0",
+        "type":"custommachinery:item",
+        "variant": "custommachinery:upgrade"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade1",
+        "type":"custommachinery:item",
+        "variant": "custommachinery:upgrade"
+      }
+    ],
+    "gui": [
+      {
+        "texture": "aof:textures/gui/alloy_smelter_gui.png",
+        "x": 40,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "texture": "aof:textures/gui/slot_pipes.png",
+        "x": 113,
+        "y": 27,
+        "type": "custommachinery:texture",
+        "jei": true,
+        "texture_hovered": "aof:textures/gui/slot_pipes.png",
+        "width": 28,
+        "height": 19
+      },
+      {
+        "x": 47,
+        "y": 83,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "x": 47,
+        "y": 16,
+        "type": "custommachinery:energy"
+      },
+      {
+        "x": 114,
+        "y": 46,
+        "id": "output1",
+        "type": "custommachinery:slot",
+        "texture": "aof:textures/gui/triple_slot_bottom.png"
+      },
+      {
+        "x": 95,
+        "y": 21,
+        "id": "slot0",
+        "type": "custommachinery:slot",
+        "texture": "aof:textures/gui/triple_slot_left.png"
+      },
+      {
+        "x": 118,
+        "y": 9,
+        "id": "slot1",
+        "type": "custommachinery:slot",
+        "texture": "aof:textures/gui/triple_slot_middle.png"
+      },
+      {
+        "x": 141,
+        "y": 21,
+        "id": "slot2",
+        "type": "custommachinery:slot",
+        "texture": "aof:textures/gui/triple_slot_right.png"
+      },
+      {
+        "x": 47,
+        "y": 63,
+        "id": "upgrade0",
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 67,
+        "y": 63,
+        "id": "upgrade1",
+        "type": "custommachinery:slot"
+      },
+      {
+        "text": "Alloy Smelter",
+        "x": 47,
+        "y": 5,
+        "type": "custommachinery:text"
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 191,
+        "y": 10
+      },
+      {
+        "x": 96,
+        "y": 41,
+        "type": "custommachinery:progress",
+        "texture_empty": "aof:textures/gui/fuel_progress_empty.png",
+        "texture_filled": "aof:textures/gui/fuel_progress_filled.png",
+        "direction": "bottom"
+      },
+      {
+        "x": 144,
+        "y": 41,
+        "type": "custommachinery:progress",
+        "texture_empty": "aof:textures/gui/fuel_progress_empty.png",
+        "texture_filled": "aof:textures/gui/fuel_progress_filled.png",
+        "direction": "bottom"
+      }
+    ]
+  }

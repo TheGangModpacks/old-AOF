@@ -1,2 +1,2 @@
 // priority: 1
-//Platform.mods.aof.name = "All of Factory"
+//Platform.mods.kubejs.name = "All of Factory"

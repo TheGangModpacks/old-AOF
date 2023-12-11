@@ -1,0 +1,9 @@
+{
+  "furnace_generator": {
+    "sounds": [
+      {
+        "name": "kubejs:furnace_generator"
+      }
+    ]
+  }
+}
