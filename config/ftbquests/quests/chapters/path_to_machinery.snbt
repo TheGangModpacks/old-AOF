@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "path_to_machinery"
+	group: ""
+	id: "5213733FE158D1B7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Time to get &4Power&r! Choose whichever power source suits your needs.                 "
+			"{@pagebreak}"
+			"&6Copper Solar Panel&r produces &41 FE per tick&r when under direct sunlight.             "
+			"{@pagebreak}"
+			"&9Tin Furnace Generator&r produces &410 FE per tick&r when provided burnable solids, but is very inefficient."
+		]
+		icon: "kubejs:tin_furnace_generator"
+		id: "26933E4C5E1C5921"
+		tasks: [{
+			id: "09C9C0E9B95B4AC4"
+			item: {
+				Count: 1b
+				id: "itemfilters:or"
+				tag: {
+					items: [
+						{
+							Count: 1b
+							id: "kubejs:tin_furnace_generator"
+						}
+						{
+							Count: 1b
+							id: "kubejs:copper_solar_panel"
+						}
+					]
+				}
+			}
+			title: "Basic Generators"
+			type: "item"
+		}]
+		title: "First Light"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Path to Machinery"
+}
